@@ -137,32 +137,50 @@ button:hover {
 }
 
 .participants-section {
-  margin-top: 15px;
-  padding-top: 15px;
-  border-top: 1px solid #ddd;
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid #d9d9d9;
 }
 
 .participants-section p {
   margin-bottom: 10px;
-  color: #555;
+  color: #444;
   font-size: 14px;
 }
 
 .participants-list {
-  list-style-position: inside;
+  list-style: disc inside;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 18px;
 }
 
 .participants-list li {
-  margin-bottom: 6px;
-  color: #666;
-  font-size: 13px;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .participants-list .no-participants {
-  color: #999;
+  color: #888;
   font-style: italic;
+}
+
+.activity-card {
+  margin-bottom: 18px;
+  padding: 18px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #fcfcfc;
+}
+
+.activity-card h4 {
+  margin-bottom: 12px;
+  color: #0d47a1;
+}
+
+.activity-card p {
+  margin-bottom: 10px;
 }
 
 footer {
