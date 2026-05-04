@@ -149,21 +149,55 @@ button:hover {
 }
 
 .participants-list {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
-  padding-left: 18px;
+  padding-left: 0;
 }
 
 .participants-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
   margin-bottom: 8px;
   color: #555;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.4;
+  padding: 6px 0;
+}
+
+.participants-list li:last-child {
+  margin-bottom: 0;
 }
 
 .participants-list .no-participants {
   color: #888;
   font-style: italic;
+  padding-left: 4px;
+}
+
+.participant-name {
+  flex: 1;
+  word-break: break-word;
+}
+
+.participant-remove {
+  border: none;
+  background: transparent;
+  color: #c62828;
+  font-size: 18px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.participant-remove:hover,
+.participant-remove:focus {
+  background-color: rgba(198, 40, 40, 0.1);
+  color: #b71c1c;
+  outline: none;
 }
 
 .activity-card {
